@@ -1,0 +1,50 @@
+.parent{
+    background-color: bisque;
+    height: 550px;
+    width: 1520px;
+}
+.nav{
+    background-color: red;
+    height: 100px;
+    width: 1520px;
+
+}
+.parent p{
+    margin-top: 0px;
+    text-align: center;
+}
+.child{
+    height: 380px;
+    width: 1520px;
+    background-color: cyan;
+    display: flex;
+}
+.child1{
+    height: 330px;
+    width: 420px;
+    background-color: blue;
+}
+.child2 {
+    height: 330px;
+    width: 1100px;
+    background-color: rgb(113, 123, 109);
+    position: relative; /* REQUIRED for inner absolute elements */
+}
+
+.child21 {
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.child22 {
+    height: 80px;
+    width: 80px;
+    background-color: yellowgreen;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
